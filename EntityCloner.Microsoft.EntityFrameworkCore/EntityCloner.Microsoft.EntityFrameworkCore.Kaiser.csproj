@@ -1,18 +1,18 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
 	<PropertyGroup>
 		<TargetFrameworks>net9.0;net8.0;net7.0;net6.0;</TargetFrameworks>
-		<Authors>Henk Kin</Authors>
-		<Company>Henk Kin</Company>
+		<Authors>Garrett Shore</Authors>
+		<Company>Kaiser</Company>
 		<PackageLicenseExpression>MIT</PackageLicenseExpression>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
-		<PackageProjectUrl>https://github.com/HenkKin/EntityCloner.Microsoft.EntityFrameworkCore</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/HenkKin/EntityCloner.Microsoft.EntityFrameworkCore.git</RepositoryUrl>
+		<PackageProjectUrl>https://github.com/shoregl/EntityCloner.Microsoft.EntityFrameworkCore.Kaiser</PackageProjectUrl>
+		<RepositoryUrl>https://github.com/shoregl/EntityCloner.Microsoft.EntityFrameworkCore.Kaiser.git</RepositoryUrl>
 		<RepositoryType>GitHub</RepositoryType>
 		<PackageTags>Clone DeepClone Entity Entities Include ThenInclude Core EntityFramework EF</PackageTags>
-		<Description>Cloning entities using EntityFrameworkCore configuration</Description>
-		<Copyright>Henk Kin</Copyright>
-		<Version>9.0.0</Version>
+		<Description>Cloning entities using EntityFrameworkCore configuration.  This is a fork of EntityCloner.Microsoft.EntityFrameworkCore to add support for skipping the reset of entity properties that have a "SkipReset" attribute</Description>
+		<Copyright>Kaiser</Copyright>
+		<Version>1.0.0</Version>
 		<PublishRepositoryUrl>true</PublishRepositoryUrl>
 		<EmbedUntrackedSources>true</EmbedUntrackedSources>
 		<IncludeSymbols>true</IncludeSymbols>
